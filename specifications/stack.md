@@ -49,3 +49,4 @@
 | `void push(const_reference value)`             | inserts element at the top                       |
 | `void pop()`              | removes the top element                        |
 | `void swap(stack& other)`             | swaps the contents                               |
+| `void insert_many_front(Args&&... args)`          | Appends new elements to the top of the container.  |

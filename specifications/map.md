@@ -68,6 +68,7 @@
 | `void erase(iterator pos)`                  | erases element at pos                                                                        |
 | `void swap(map& other)`                   | swaps the contents                                                                     |
 | `void merge(map& other);`                  | splices nodes from another container                                                   |
+| `vector<std::pair<iterator,bool>> insert_many(Args&&... args)`          | Inserts new elements into the container.  |
 
 *Map Lookup*
 

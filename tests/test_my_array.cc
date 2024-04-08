@@ -1,5 +1,5 @@
-#include "gtest/gtest.h"
 #include "../my_array.h"
+#include "gtest/gtest.h"
 
 TEST(array, constructor) {
   mycontainers::array<std::string, 3> myarray;

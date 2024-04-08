@@ -1,6 +1,6 @@
-#include "gtest/gtest.h"
 #include "../my_containers.h"
 #include "../my_containersplus.h"
+#include "gtest/gtest.h"
 
 int main(int argc, char **argv) {
   testing::InitGoogleTest(&argc, argv);

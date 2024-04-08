@@ -57,6 +57,7 @@
 | `void erase(iterator pos)`                  | erases element at pos                                                                        |
 | `void swap(multiset& other)`                   | swaps the contents                                                                     |
 | `void merge(multiset& other)`                  | splices nodes from another container                                                   |
+| `vector<std::pair<iterator,bool>> insert_many(Args&&... args)`          | Inserts new elements into the container.  |
 
 *Multiset Lookup*
 

@@ -1,7 +1,7 @@
 #include <list>
 
-#include "gtest/gtest.h"
 #include "../my_list.h"
+#include "gtest/gtest.h"
 
 TEST(list, constructor) {
   mycontainers::list<std::string> myList;

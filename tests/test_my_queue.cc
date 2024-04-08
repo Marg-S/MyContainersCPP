@@ -1,7 +1,7 @@
 #include <queue>
 
-#include "gtest/gtest.h"
 #include "../my_queue.h"
+#include "gtest/gtest.h"
 
 class QueueTest1 : public testing::Test {
  protected:

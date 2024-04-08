@@ -57,10 +57,10 @@ endif
 
 test_format:
 	@echo "Checking styles..."
-	clang-format -n -style=Google *.cc *.h
+	clang-format -n -style=Google $(SRC_TEST_DIR)/*.cc *.h
 
 format:
 	@echo "Formatting..."
-	clang-format -i -style=Google *.cc *.h
+	clang-format -i -style=Google $(SRC_TEST_DIR)/*.cc *.h
 
 .PHONY: all clean test gcov_report test_memory test_format

@@ -1,7 +1,7 @@
 #include <stack>
 
-#include "gtest/gtest.h"
 #include "../my_stack.h"
+#include "gtest/gtest.h"
 
 class StackTest1 : public testing::Test {
  protected:

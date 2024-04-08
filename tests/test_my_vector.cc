@@ -1,5 +1,5 @@
-#include "gtest/gtest.h"
 #include "../my_vector.h"
+#include "gtest/gtest.h"
 
 TEST(vector, constructor) {
   mycontainers::vector<std::string> myVector;

@@ -73,3 +73,5 @@
 | `void push_back(const_reference value)`      | adds an element to the end                      |
 | `void pop_back()`   | removes the last element        |
 | `void swap(vector& other)`                   | swaps the contents                                                                     |
+|`iterator insert_many(const_iterator pos, Args&&... args)`          | Inserts new elements into the container directly before `pos`.  |
+| `void insert_many_back(Args&&... args)`          | Appends new elements to the end of the container.  |

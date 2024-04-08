@@ -73,3 +73,6 @@
 | `void reverse()`                   | reverses the order of the elements              |
 | `void unique()`                   | removes consecutive duplicate elements               |
 | `void sort()`                   | sorts the elements                |
+|`iterator insert_many(const_iterator pos, Args&&... args)`          | Inserts new elements into the container directly before `pos`.  |
+| `void insert_many_back(Args&&... args)`          | Appends new elements to the end of the container.  |
+| `void insert_many_front(Args&&... args)`          | Appends new elements to the top of the container.  |

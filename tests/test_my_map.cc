@@ -1,5 +1,5 @@
-#include "gtest/gtest.h"
 #include "../my_map.h"
+#include "gtest/gtest.h"
 
 template class mycontainers::MyMap<int, int>;
 

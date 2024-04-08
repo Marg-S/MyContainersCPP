@@ -50,3 +50,4 @@
 | `void push(const_reference value)`             | inserts element at the end                       |
 | `void pop()`              | removes the first element                        |
 | `void swap(queue& other)`             | swaps the contents                               |
+| `void insert_many_back(Args&&... args)`          | Appends new elements to the end of the container.  |

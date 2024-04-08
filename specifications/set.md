@@ -58,6 +58,7 @@
 | `void erase(iterator pos)`                  | erases element at pos                                                                        |
 | `void swap(set& other)`                   | swaps the contents                                                                     |
 | `void merge(set& other);`                  | splices nodes from another container                                                   |
+| `vector<std::pair<iterator,bool>> insert_many(Args&&... args)`          | Inserts new elements into the container.  |
 
 *Set Lookup*
 

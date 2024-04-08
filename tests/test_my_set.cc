@@ -1,5 +1,5 @@
-#include "gtest/gtest.h"
 #include "../my_set.h"
+#include "gtest/gtest.h"
 
 class SetTest1 : public testing::Test {
  protected:
